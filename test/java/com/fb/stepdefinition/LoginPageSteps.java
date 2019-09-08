@@ -44,6 +44,7 @@ public class LoginPageSteps {
 	   String n=d.getCurrentUrl();
 	   boolean b=n.contains("addcustomer");
 	   Assert.assertTrue(b);
+	   System.out.println(b);
 	}
 
 	}
